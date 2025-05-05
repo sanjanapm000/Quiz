@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+<link rel="stylesheet" href="styles.css" type="text/css" media="all" />  </head>
+  <body>
+    <header>Quiz Time</header>
+    <main>
+      <article>
+        <div class="question">
+          <p class="q">1. Which gas do plants absorb from the atmosphere for photosynthesis?</p>
+          <div class="option" onclick="check(this,false)">A. Oxygen</div>
+          <div class="option" onclick="check(this,true)">B. Carbon Dioxide</div>
+          <div class="option" onclick="check(this,false)">C. Nitrogen</div>
+          <div class="option" onclick="check(this,false)">D. Methane</div>
+        </div>
+        <div class="question">
+          <p class="q">2. Which is the largest rainforest in the world?</p>
+          <div class="option" onclick="check(this,false)">A. Congo Rainforest</div>
+          <div class="option" onclick="check(this,true)">B. Amazon Rainforest</div>
+          <div class="option" onclick="check(this,false)">C. Daintree Rainforest</div>
+          <div class="option" onclick="check(this,false)">D. Sundarbans</div>
+        </div>
+      </article>
+      <button type="submit" onclick="nextQues()">Next Question</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
